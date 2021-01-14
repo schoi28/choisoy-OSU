@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Homework 02: HTML/CSS</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+    <h1> Homework 02 HTML/CSS</h1>
+    <table>
+        <caption>Disney Princess Analysis : Cell content is princess' personal info.</caption>
+        <thead>   
+            <th></th>
+            <th>Mulan</th>
+            <th>Rapunzel</th>
+            <th>Snow White</th>
+            <th>Elsa</th>
+            <th>Belle</th>   
+        </thead>
+        <tbody>
+            <tr>
+                <th><em>Race</em></th>
+                <td>Chinese</td>
+                <td>Caucasian</td>
+                <td>Caucasian</td>
+                <td>Caucasian</td>
+                <td>French</td>
+
+            </tr>
+            <tr>
+                <th><em>Birth status</em></th>
+                <td>Commons</td>
+                <td>Royalty</td>
+                <td>Royalty</td>
+                <td>Royalty</td>
+                <td>Commons</td>
+
+            </tr>
+            <tr>
+                <th><em>Hair color</em></th>
+                <td>Balck</td>
+                <td>Golden Blonde</td>
+                <td>Black</td>
+                <td>Platinum Blonde</td>
+                <td>Brown</td>
+
+            </tr>
+            <tr>
+                <th><em>Age</em></th>
+                <td>16</td>
+                <td>18</td>
+                <td>14</td>
+                <td>21</td>
+                <td>17</td>
+
+            </tr>
+
+            <tr>
+                <th><em>Theme song</em></th>
+                <td>Reflection</td>
+                <td>When will my life begin?</td>
+                <td>Someday my prince will come</td>
+                <td>Let it go</td>
+                <td>Beauty and the beast</td>
+
+            </tr>
+
+            
+
+            <tr>
+                <td colspan="2">My favorite</td>
+                <td colspan="4">theme song is Reflection!</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <dl>
+        <dt>Name</dt>    
+        <dd>Soyoon Choi</dd>
+        <dt>Born</dt>
+        <dd>1994</dd>
+        <dt>Birthplace</dt>
+        <dd>South Korea</dd>
+    </dl>
+
+    <div class="outer-content">
+        <div class="inner-content">Hello! This is my second homework! </div> 
+    </div>
+
+
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+            <legend>Some GET Data</legend>
+                <section>
+                    <label>Text here: <input type="text" name="text_input"> </label><br/>
+                </section>
+                
+	            <section>
+                    <label>Number here: <input type="number" name="numerical_input"> </label><br/>
+                </section>
+                
+                <section>
+                    <label>Password here: <input type="password" name="password_input"> </label><br/>
+                </section>
+                
+            
+            <section>Select between:<br/>
+                <label> <input type="radio" name="candy" value="Snickers">Snickers </label><br/>
+	            <label> <input type="radio" name="candy" value="Skittles">Skittles </label><br/>
+	            <label> <input type="radio" name="candy" value="Mentos">Mentos </label><br/>
+                <input type="submit">
+            </section>
+        </fieldset>
+    </form>
+
+
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+            <legend>Some POST Data</legend>
+                <section>
+                    <label>Text here: <input type="text" name="text_input"> </label><br/>
+                </section>
+                
+	            <section>
+                    <label>Number here: <input type="number" name="numerical_input"> </label><br/>
+                </section>
+                
+                <section>
+                    <label>Password here: <input type="password" name="password_input"> </label><br/>
+                </section>
+                
+            
+            <section>Select between:<br/>
+                <label> <input type="radio" name="candy" value="Snickers">Snickers </label><br/>
+	            <label> <input type="radio" name="candy" value="Skittles">Skittles </label><br/>
+	            <label> <input type="radio" name="candy" value="Mentos">Mentos </label><br/>
+                <input type="submit">
+            </section>
+        </fieldset>
+    </form>
+ </body>
+</html>

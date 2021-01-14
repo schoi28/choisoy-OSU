@@ -1,0 +1,57 @@
+table{
+    border-style:double;
+}
+
+tbody>tr:nth-of-type(1){
+    background-color:lightgreen
+}
+tr:nth-of-type(2){
+    background-color:lightskyblue;
+}
+tr:nth-of-type(3){
+    background-color:lightgreen;
+}
+tr:nth-of-type(4){
+    background-color:lightskyblue;
+}
+tr:nth-of-type(5){
+    background-color:lightgreen;
+}
+
+th, td{
+    border-style:ridge;  
+}
+
+table>tbody>tr>th>em{
+    font-weight:lighter;
+}
+
+.outer-content {
+   
+    background-color:rgb(223, 145, 210); 
+    width: 75%; 
+    padding: 20px;
+    margin-top:20px;
+
+}
+   
+.inner-content{
+
+    background-color: rgb(160, 198, 247);
+    width:75%;
+    text-align: center;
+    margin:auto;
+
+}
+
+section{
+    border-style: solid;
+    border-color:gray;
+    border-top-width:thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-right-width: thin;
+
+    padding: 5px;
+    margin:10px;
+}
