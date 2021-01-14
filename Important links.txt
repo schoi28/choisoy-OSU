@@ -1,0 +1,4 @@
+SSH host name: flip3.engr.oregonstate.edu
+MySQL url: https://classmysql.engr.oregonstate.edu/
+my Port: 65092 
+http://flip3.engr.oregonstate.edu:65092/
